@@ -4,15 +4,15 @@
 setIcon(<minecraft:map>)
 
 //Set title String
-setTitle("This is a title")
+setTitle("CyCraft")
 
 //Set description String
-setDescription("This is a description")
+setDescription("CyCraft Achievements to unlock game features")
 
 //Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
 setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
 
-//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved. 
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
 setShowToast(false)
 
 //Set the advancement to not send a chat message when it is achieved.
