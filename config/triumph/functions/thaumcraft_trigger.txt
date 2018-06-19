@@ -1,0 +1,4 @@
+gamestage add @p thaumcraft
+gamestage add @p thaumcraft_mob
+summon minecraft:fireworks_rocket ~ ~ ~
+say You're a wizard Harry!

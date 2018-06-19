@@ -1,2 +1,3 @@
 gamestage add @p mapping
+summon minecraft:fireworks_rocket ~ ~ ~
 say You have learned Advanced Mapping
