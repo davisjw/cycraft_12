@@ -1,0 +1,22 @@
+setTitle("Magic and Sourcery")
+
+setIcon("thaumcraft:pech_wand")
+
+setDescription("Craft a magical item")
+
+setParent("triumph:cycraft/root")
+setRequiresParent(true)
+
+criteria = addCriteria("triumph magic astral sourcery start" , "triumph:completed_advancement")
+criteria.setAdvancement("triumph:magic/astral/root")
+
+criteria = addCriteria("triumph magic bloodmagic start" , "triumph:completed_advancement")
+criteria.setAdvancement("triumph:magic/bloodmagic/root")
+
+criteria = addCriteria("triumph magic botania start" , "triumph:completed_advancement")
+criteria.setAdvancement("triumph:magic/botania/root")
+
+criteria = addCriteria("triumph magic thaumcraft start" , "triumph:completed_advancement")
+criteria.setAdvancement("triumph:magic/thaumcraft/root")
+
+setRequirements("any")

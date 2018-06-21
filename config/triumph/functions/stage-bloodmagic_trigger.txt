@@ -1,0 +1,5 @@
+gamestage add @p bloodmagic
+gamestage add @p bloodmagic_mob
+summon minecraft:fireworks_rocket ~ ~ ~
+say Feel the blood rushing...
+mpa notify @p stage_bloodmagic

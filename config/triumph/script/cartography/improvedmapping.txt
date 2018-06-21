@@ -1,0 +1,18 @@
+setTitle("Mapping")
+
+setIcon("minecraft:empty_map")
+
+setDescription("Craft a Map and the One Probe")
+
+setParent("triumph:cycraft/root")
+setRequiresParent(true)
+
+criteria = addCriteria("vanilla map, "minecraft:inventory_changed")
+criteria.addItem("minecraft:map")
+
+criteria = addCriteria("the one probe", "minecraft:inventory_changed")
+criteria.addItem("theoneprobe:probe")
+
+//Rewards
+setRewardFunction("triumph:stage-improved_mapping_trigger")
+setRewardExperience(8)

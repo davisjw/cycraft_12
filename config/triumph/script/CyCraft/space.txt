@@ -1,0 +1,15 @@
+setTitle("Space Flight")
+
+setIcon("galacticraftcore:rocket_t1")
+
+setDescription("Craft an Atlas")
+
+setParent("triumph:cycraft/root")
+setRequiresParent(true)
+
+criteria = addCriteria("rocket engine, "minecraft:inventory_changed")
+criteria.addItem("galacticraftcore:engine")
+
+//Rewards
+//setRewardFunction("triumph:mapping_trigger")
+setRewardExperience(8)

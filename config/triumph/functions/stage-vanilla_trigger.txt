@@ -1,0 +1,2 @@
+gamestage add @p vanilla
+mpa notify @p stage_vanilla

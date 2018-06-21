@@ -1,0 +1,15 @@
+setTitle("Mapping")
+
+setIcon("minecraft:empty_map")
+
+setDescription("Craft an Atlas")
+
+setParent("triumph:cycraft/root")
+setRequiresParent(true)
+
+criteria = addCriteria("atlas, "minecraft:inventory_changed")
+criteria.addItem("antiqueatlas:empty_antique_atlas")
+
+//Rewards
+setRewardFunction("triumph:mapping_trigger")
+setRewardExperience(8)

@@ -1,0 +1,3 @@
+gamestage add @p improved_mapping
+summon minecraft:fireworks_rocket ~ ~ ~
+say Your cartography skills are improving

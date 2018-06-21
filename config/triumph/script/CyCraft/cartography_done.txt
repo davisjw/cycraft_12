@@ -1,0 +1,11 @@
+setTitle("Cartography Complete")
+
+setIcon("minecraft:filled_map")
+
+setDescription("Complete all cartography challenges")
+
+setParent("triumph:cycraft/cartography")
+setRequiresParent(true)
+
+criteria = addCriteria("triumph" , "triumph:completed_advancement")
+criteria.setAdvancement("triumph:cartography/advanced_mapping")

@@ -11,7 +11,7 @@ setTitle("Multiblock")
 setDescription("Form a crusher multiblock")
 
 //Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
-setParent("triumph:example/root")
+setParent("triumph:tech/immersiveengineering/root")
 
 //Set the position
 setPos(12, 5.5)

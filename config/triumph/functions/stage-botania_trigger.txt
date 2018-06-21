@@ -1,0 +1,5 @@
+gamestage add @p botania
+gamestage add @p botania_mob
+summon minecraft:fireworks_rocket ~ ~ ~
+say Ohh wow, its flower power!!!
+mpa notify @p stage_botania

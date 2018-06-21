@@ -1,0 +1,3 @@
+gamestage add @p advanced_mapping
+summon minecraft:fireworks_rocket ~ ~ ~
+say You are an expert in cartography

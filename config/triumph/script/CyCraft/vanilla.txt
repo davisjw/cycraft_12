@@ -1,0 +1,20 @@
+setTitle("Vanilla")
+
+setIcon("minecraft:grass")
+
+setDescription("Craft a vanilla crafting table to get started, completes when you kill the Ender Dragon")
+
+setParent("triumph:cycraft/root")
+setRequiresParent(true)
+
+criteria = addCriteria("crafting_table", "minecraft:inventory_changed")
+criteria.addItem("minecraft:crafting_table")
+
+criteria = addCriteria("killed_dragon", "minecraft:player_killed_entity")
+criteria.setEntityType("ender_dragon")
+
+setRequirements("any")
+
+//Rewards
+//setRewardFunction("triumph:mapping_trigger")
+setRewardExperience(8)

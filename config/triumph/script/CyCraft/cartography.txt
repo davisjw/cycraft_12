@@ -1,0 +1,11 @@
+setTitle("Mapping")
+
+setIcon("minecraft:empty_map")
+
+setDescription("Craft an Atlas")
+
+setParent("triumph:cycraft/root")
+setRequiresParent(true)
+
+criteria = addCriteria("triumph" , "triumph:completed_advancement")
+criteria.setAdvancement("triumph:cartography/root")

@@ -1,0 +1,11 @@
+setTitle("Magic and Sourcery Complete")
+
+setIcon("thaumcraft:pech_wand")
+
+setDescription("Complete all Magic and Sourcery challenges")
+
+setParent("triumph:cycraft/magic")
+setRequiresParent(true)
+
+criteria = addCriteria("atlas, "minecraft:inventory_changed")
+criteria.addItem("antiqueatlas:empty_antique_atlas")
