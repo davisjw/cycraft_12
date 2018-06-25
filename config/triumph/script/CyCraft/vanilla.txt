@@ -7,14 +7,21 @@ setDescription("Craft a vanilla crafting table to get started, completes when yo
 setParent("triumph:cycraft/root")
 setRequiresParent(true)
 
-criteria = addCriteria("crafting_table", "minecraft:inventory_changed")
-criteria.addItem("minecraft:crafting_table")
+criteria = addCriteria("triumph" , "triumph:completed_advancement")
+criteria.setAdvancement("triumph:vanilla/adventure")
 
-criteria = addCriteria("killed_dragon", "minecraft:player_killed_entity")
-criteria.setEntityType("ender_dragon")
+criteria = addCriteria("triumph" , "triumph:completed_advancement")
+criteria.setAdvancement("triumph:vanilla/end")
 
-setRequirements("any")
+criteria = addCriteria("triumph" , "triumph:completed_advancement")
+criteria.setAdvancement("triumph:vanilla/husbandry")
+
+criteria = addCriteria("triumph" , "triumph:completed_advancement")
+criteria.setAdvancement("triumph:vanilla/minecraft")
+
+criteria = addCriteria("triumph" , "triumph:completed_advancement")
+criteria.setAdvancement("triumph:vanilla/nether")
 
 //Rewards
-//setRewardFunction("triumph:mapping_trigger")
+setRewardFunction("triumph:vanilla_trigger")
 setRewardExperience(8)

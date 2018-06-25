@@ -1,0 +1,22 @@
+setTitle("Adventure")
+
+setIcon("rustic:cloudsbluff")
+
+setDescription("Complete all the Vanilla adventure achievements")
+
+setParent("triumph:cycraft/vanilla")
+
+criteria = addCriteria("triumph_mc_adv_sd" , "triumph:completed_advancement")
+criteria.setAdvancement("minecraft:adventure/sniper_duel")
+
+criteria = addCriteria("triumph_mc_adv_kam" , "triumph:completed_advancement")
+criteria.setAdvancement("minecraft:adventure/kill_all_mobs")
+
+criteria = addCriteria("triumph_mc_adv_tou" , "triumph:completed_advancement")
+criteria.setAdvancement("minecraft:adventure/totem_of_undying")
+
+criteria = addCriteria("triumph_mc_adv_sig" , "triumph:completed_advancement")
+criteria.setAdvancement("minecraft:adventure/summon_iron_golem")
+
+criteria = addCriteria("triumph_mc_adv_at" , "triumph:completed_advancement")
+criteria.setAdvancement("minecraft:adventure/adventuring_time")

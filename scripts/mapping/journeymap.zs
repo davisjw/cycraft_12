@@ -10,4 +10,4 @@ JMapStages.setFullscreenStage(STAGES.advMap);
 JMapStages.setDeathpointStage(STAGES.advMap);
 
 //Restricts the player from having the minimap open on their screen.
-//JMapStages.setMinimapStage(STAGES.advMap);
+JMapStages.setMinimapStage(STAGES.advMap);

@@ -1,0 +1,19 @@
+setTitle("Husbandry")
+
+setIcon("minecraft:hay_block")
+
+setDescription("Complete all the Vanilla husbandry achievements")
+
+setParent("triumph:cycraft/vanilla")
+
+criteria = addCriteria("triumph_mc_hus_baa" , "triumph:completed_advancement")
+criteria.setAdvancement("minecraft:husbandry/bred_all_animals")
+
+criteria = addCriteria("triumph_mc_hus_taa" , "triumph:completed_advancement")
+criteria.setAdvancement("minecraft:husbandry/tame_an_animal")
+
+criteria = addCriteria("triumph_mc_hus_bd" , "triumph:completed_advancement")
+criteria.setAdvancement("minecraft:husbandry/balanced_diet")
+
+criteria = addCriteria("triumph_mc_hus_bdh" , "triumph:completed_advancement")
+criteria.setAdvancement("minecraft:husbandry/break_diamond_hoe")

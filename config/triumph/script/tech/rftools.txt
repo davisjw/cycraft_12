@@ -1,0 +1,21 @@
+setTitle("RFTools")
+
+setIcon(<immersiveengineering:metal_multiblock, meta:1>)
+
+setDescription("Machines and Technology to automate your lifestyle!")
+
+setBackground("minecraft:textures/blocks/cobblestone.png")
+
+setTranslatedTitle("advancements.cycraft.tech.begin.root.title")
+
+setTranslatedDescription("advancements.cycraft.tech.begin.root.description")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+//Criteria
+criteria = addCriteria("bwm wood gear", "minecraft:inventory_changed")
+criteria.addItem("betterwithmods:material")
+
+setRequirements("any")

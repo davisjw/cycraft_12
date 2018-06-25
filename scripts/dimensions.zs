@@ -9,9 +9,6 @@ mods.DimensionStages.addDimensionStage(STAGES.vanilla, -1);
 //End
 mods.DimensionStages.addDimensionStage(STAGES.vanilla, 1);
 
-//Aether
-mods.DimensionStages.addDimensionStage(STAGES.vanilla, 3);
-
 //Hunting Dimension
 mods.DimensionStages.addDimensionStage(STAGES.vanilla, 28885);
 
@@ -30,7 +27,10 @@ mods.DimensionStages.addDimensionStage(STAGES.tech, 2);
 // Magical
 //----------------------
 //Thaumcraft
+mods.DimensionStages.addDimensionStage(STAGES.thaum, 42);
 
+//Aether
+mods.DimensionStages.addDimensionStage(STAGES.vanilla, 3);
 
 // Unused
 //----------------------

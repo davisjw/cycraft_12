@@ -1,0 +1,57 @@
+setTitle("Thermal Expansion")
+
+setIcon(<immersiveengineering:metal_multiblock, meta:1>)
+
+setDescription("Machines and Technology to automate your lifestyle!")
+
+setBackground("minecraft:textures/blocks/cobblestone.png")
+
+setTranslatedTitle("advancements.cycraft.tech.begin.root.title")
+
+setTranslatedDescription("advancements.cycraft.tech.begin.root.description")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setRequirements("any")
+
+// better with mods, asikoor, ceramics, buildcraft, industrial craft,
+// pneumaticraft, immersive engineering, forestry
+
+//Criteria
+
+//betterwithmods
+criteria = addCriteria("bwm wood gear", "minecraft:inventory_changed")
+criteria.addItem("betterwithmods:material")
+
+//asikoor
+criteria = addCriteria("astikoor wheel", "minecraft:inventory_changed")
+criteria.addItem("astikoor:wheel")
+
+//ceramics
+criteria = addCriteria("unfired clay", "minecraft:inventory_changed")
+criteria.addItem("ceramics:unfired_clay")
+
+//buildcraft
+criteria = addCriteria("bc wood gear", "minecraft:inventory_changed")
+criteria.addItem("buildcraftcore:gear_wood")
+
+//ic2
+criteria = addCriteria("forge hammer", "minecraft:inventory_changed")
+criteria.addItem("ic2:forge_hammer")
+
+//pneumaticcraft
+criteria = addCriteria("compressed iron", "minecraft:inventory_changed")
+criteria.addItem("pneumaticcraft:ingot_iron_compressed")
+
+//immersive engineering
+criteria = addCriteria("engineers hammer", "minecraft:inventory_changed")
+criteria.addItem("immersiveengineering:tool")
+
+//forestry
+criteria = addCriteria("wood gear, "minecraft:inventory_changed")
+criteria.addItem("betterwithmods:material")
+
+//Rewards
+//setRewardFunction("triumph:stage-begTech_trigger")

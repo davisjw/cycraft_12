@@ -1,0 +1,11 @@
+setTitle("Applied Energistics 2")
+
+setIcon(<immersiveengineering:metal_multiblock, meta:1>)
+
+setDescription("Machines and Technology to automate your lifestyle!")
+
+setParent("triumph:cycraft/vanilla")
+
+//Criteria
+criteria = addCriteria("triumph_mc_st_ei" , "triumph:completed_advancement")
+criteria.setAdvancement("appliedenergistics2:main/root")
