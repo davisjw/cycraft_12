@@ -37,6 +37,6 @@ for item, recipesForItem in shapedRecipes {
  }
 }
 
-for recipe in cyItems {
+for item in cyItems {
  mods.recipestages.Recipes.setRecipeStage(STAGE, item);
 }
