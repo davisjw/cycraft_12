@@ -18,10 +18,12 @@ global STAGES as string[string] = {
 	thaumMob : "thaumcraftMob",
 
   //Tech STAGES
-	//begTech : "begin_technology",     // bwm, asikor, ceramics, bc, ic2, pneumatic, ie, forestry
-	//impTech : "improved_technology",  // storagedrawers, practical, cc, sync, modularrouters, inductive, integrated, immersive,
-	//expTech : "expert_technology",    // aa, rs, proj red, steves, gc, te, adv gen, compactmachines, xnet, dank
-	//endTech : "endgame_technology",   // flux, ae2, mekanism, quantumstorage, endertanks
+	/*
+	begTech : "begin_technology",     // bwm, asikor, ceramics, bc, ic2, pneumatic, ie, forestry
+	impTech : "improved_technology",  // storagedrawers, practical, cc, sync, modularrouters, inductive, integrated, immersive,
+	expTech : "expert_technology",    // aa, rs, proj red, steves, gc, te, adv gen, compactmachines, xnet, dank
+	endTech : "endgame_technology",   // flux, ae2, mekanism, quantumstorage, endertanks
+  */
 
 	//Mapping Stages
 	mapping : "mapping",

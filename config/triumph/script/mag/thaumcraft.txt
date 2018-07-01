@@ -1,0 +1,17 @@
+setTitle("Thaumcraft")
+
+setIcon("thaumcraft:goggles")
+
+setDescription("Craft an available thaumcraft item to start, complete all thaumcraft advancements")
+
+setParent("triumph:magic")
+
+//Set this to use direct lines, so I can have a pretty shape
+drawDirectLines(true)
+
+//Thaumcraft
+criteria = addCriteria("craft_thaumonomicon", "minecraft:inventory_changed")
+criteria.addItem("thaumcraft:thaumonomicon")
+
+//Rewards
+setRewardFunction("triumph:stage-thaumcraft_trigger")

@@ -1,0 +1,19 @@
+setTitle("Vanilla")
+
+setIcon("minecraft:grass")
+
+setDescription("Craft a vanilla crafting table to get started, completes when you finish all vanilla advancements")
+
+setParent("triumph:root")
+
+setHidden(false)
+
+//Set this to use direct lines, so I can have a pretty shape
+drawDirectLines(true)
+
+//vanilla
+criteria = addCriteria("vanilla crafting table", "minecraft:inventory_changed")
+criteria.addItem("minecraft:crafting_table")
+
+//Rewards
+setRewardFunction("triumph:vanilla_trigger")

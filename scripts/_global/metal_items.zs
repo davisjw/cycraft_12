@@ -151,7 +151,7 @@ global metalItems as IIngredient[string][string] = {
 		liquid: <liquid:gold>,
 		nugget: <minecraft:gold_nugget>,
 		plate: <immersiveengineering:metal:40>,
-		rod: <primal:golden_stick>,
+		rod: null,
 		shard: <mekanism:shard:1>
 	},
 	invar: {

@@ -1,0 +1,26 @@
+setTitle("Magic and Sourcery")
+
+setIcon("thaumcraft:pech_wand")
+
+setDescription("Craft a magical item")
+
+setParent("triumph:root")
+
+//Set this to use direct lines, so I can have a pretty shape
+drawDirectLines(true)
+
+setHidden(false)
+
+criteria = addCriteria("triumph magic astral sourcery start" , "triumph:completed_advancement")
+criteria.setAdvancement("triumph:mag/astral")
+
+criteria = addCriteria("triumph magic bloodmagic start" , "triumph:completed_advancement")
+criteria.setAdvancement("triumph:mag/bloodmagic")
+
+criteria = addCriteria("triumph magic botania start" , "triumph:completed_advancement")
+criteria.setAdvancement("triumph:mag/botania")
+
+criteria = addCriteria("triumph magic thaumcraft start" , "triumph:completed_advancement")
+criteria.setAdvancement("triumph:mag/thaumcraft")
+
+setRequirements("any")

@@ -1,0 +1,18 @@
+setTitle("Cartography Complete")
+
+setIcon("minecraft:filled_map")
+
+setDescription("Complete all cartography challenges")
+
+setParent("triumph:map")
+setRequiresParent(true)
+
+setHidden(false)
+
+//Set this to use direct lines, so I can have a pretty shape
+drawDirectLines(true)
+
+criteria = addCriteria("triumph" , "triumph:completed_advancement")
+criteria.setAdvancement("triumph:map/advanced_mapping")
+
+setRequirements("all")

@@ -1,0 +1,17 @@
+setTitle("Cartography")
+
+setIcon("minecraft:empty_map")
+
+setDescription("Craft an Atlas")
+
+setParent("triumph:root")
+
+setHidden(false)
+
+//Set this to use direct lines, so I can have a pretty shape
+drawDirectLines(true)
+
+criteria = addCriteria("triumph" , "triumph:completed_advancement")
+criteria.setAdvancement("triumph:map/starter")
+
+setRequirements("any")

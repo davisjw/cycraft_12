@@ -1,0 +1,35 @@
+//This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
+
+//Set icon item
+setIcon(<minecraft:beacon>)
+
+//Set title String
+setTitle("CyCraft")
+
+//Set description String
+setDescription("Unlock Game Features")
+
+//Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
+setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(false)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+setRequirements("any")
+
+//Criteria
+addCriteria("breakBlock", "triumph:player_break_block")
+addCriteria("craftItem", "triumph:player_crafted_item")
+addCriteria("enterDimension", "minecraft:changed_dimension")
+addCriteria("inventoryChange", "minecraft:inventory_changed")
+addCriteria("killEntity", "minecraft:player_killed_entity")
+addCriteria("killedByEntity", "minecraft:entity_killed_player")
+addCriteria("location", "minecraft:location")
+
+// basic_technology : bwm, asikor, ceramics, bc, ic2, pneumatic, ie, forestry
+// improved_technology : storagedrawers, practical, cc, sync, modularrouters, inductive, integrated
+// expert_technology : aa, rs, proj red, steves, gc, te, adv gen, compactmachines, xnet, dank
+// endgame_technology : flux, ae2, mekanism, quantumstorage, endertanks

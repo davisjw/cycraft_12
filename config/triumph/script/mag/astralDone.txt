@@ -1,0 +1,18 @@
+setTitle("Astral Sorcery Completed")
+
+setIcon("astralsorcery:blockaltar:3")
+
+setDescription("Craft an available astral item to start, complete all astral advancements")
+
+setParent("triumph:mag/astral")
+setRequiresParent(true)
+
+//Set this to use direct lines, so I can have a pretty shape
+drawDirectLines(true)
+
+//Astral
+criteria = addCriteria("astral_tome", "minecraft:inventory_changed")
+criteria.addItem("astralsorcery:blockaltar:3")
+
+//Rewards
+setRewardExperience(8)

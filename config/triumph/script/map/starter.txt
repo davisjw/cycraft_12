@@ -1,0 +1,18 @@
+setTitle("Beginner Mapping")
+
+setIcon("minecraft:empty_map")
+
+setDescription("Unlocking map features")
+
+setParent("triumph:cartography")
+setRequiresParent(true)
+
+//Set this to use direct lines, so I can have a pretty shape
+drawDirectLines(true)
+
+//Criteria
+criteria = addCriteria("atlas, "minecraft:inventory_changed")
+criteria.addItem("antiqueatlas:empty_antique_atlas")
+
+//Rewards
+setRewardFunction("triumph:stage-improved_mapping_trigger")

@@ -5,19 +5,13 @@ import crafttweaker.item.IIngredient;
 
 var STAGE = STAGES.cycraft;
 
-var modIDs as string[] = [
-];
-
-var shapelessRecipes as IIngredient[][][IItemStack] = {
-};
-
 var shapedRecipes as IIngredient[][][IItemStack] = {
 	<astralsorcery:itemjournal> : [
 		[null, <minecraft:paper>, null],
 		[<astralsorcery:itemcraftingcomponent>, <minecraft:book>,<astralsorcery:itemcraftingcomponent>],
     [null,<astralsorcery:itemcraftingcomponent>,null]
 	],
-	<thaumcraft:salis_mundis> : [
+	<thaumcraft:salis_mundus> : [
 		[<minecraft:dye:*>, <minecraft:dye:*>,   <minecraft:dye:*>],
 		[<minecraft:diamond>, <minecraft:ender_pearl>, <minecraft:diamond>],
     [<minecraft:dye:*>, <minecraft:dye:*>,   <minecraft:dye:*>]
@@ -39,9 +33,12 @@ var cyItems as IIngredient[] = [
 ];
 
 
+for item, recipesForItem in shapedRecipes {
+ for recipe in recipesForItem {
+	 mods.recipestages.Recipes.addShaped(STAGE, item, recipe);
+ }
+}
 
-/* loop lists and execute */
-scripts.utils.addStageToModListItems(STAGE, modIDs);
-scripts.utils.addStageToShapelessItemList(STAGE, shapelessRecipes);
-scripts.utils.addStageToShapedItemList(STAGE, shapedRecipes);
-scripts.utils.addStageToItemList(STAGE, cyItems);
+for recipe in cyItems {
+ mods.recipestages.Recipes.setRecipeStage(STAGE, item);
+}

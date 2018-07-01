@@ -1,0 +1,18 @@
+setTitle("Bloodmagic Completed")
+
+setIcon("bloodmagic:dagger_of_sacrifice")
+
+setDescription("Craft an available bloodmagic item to start, complete all bloodmagic advancements")
+
+setParent("triumph:magic/bloodmagic")
+setRequiresParent(true)
+
+//Set this to use direct lines, so I can have a pretty shape
+drawDirectLines(true)
+
+//Astral
+criteria = addCriteria("craft_hellfire_forge", "minecraft:inventory_changed")
+criteria.addItem("bloodmagic:soul_forge")
+
+//Rewards
+setRewardExperience(8)

@@ -1,0 +1,18 @@
+setTitle("Botania Completed")
+
+setIcon("botania:manaresource:13")
+
+setDescription("Craft an available botania item to start, complete all botania advancements")
+
+setParent("triumph:magic/botania")
+setRequiresParent(true)
+
+//Set this to use direct lines, so I can have a pretty shape
+drawDirectLines(true)
+
+//Astral
+criteria = addCriteria("craft_lexica_botania", "minecraft:inventory_changed")
+criteria.addItem("botania:lexicon")
+
+//Rewards
+setRewardExperience(8)
