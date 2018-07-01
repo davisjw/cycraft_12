@@ -40,6 +40,6 @@ var mobStages as string[][string] = {
 
 for stage, mobs in mobStages {
 	for mob in mobs {
-		 mod.MobStages.addStage(stage, mob);
+		 mods.MobStages.addStage(stage, mob);
 	}
 }

@@ -1,5 +1,3 @@
-#priority 100
-
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
@@ -25,7 +23,7 @@ var cyItems as IIngredient[] = [
 
   //Items
 	<astralsorcery:itemjournal>,
-  <thaumcraft:salis_mundis>,
+  <thaumcraft:salis_mundus>,
   <thaumcraft:thaumonomicon>,
   <bloodmagic:soul_forge>,
   <botania:lexicon>,
