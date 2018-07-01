@@ -9,6 +9,6 @@ var modifyStages as int[][string] = {
 
 for stage, modifiers in modifyStages {
   for mod in modifiers {
-	  mods.TinkersStages.addModifierStage(stage, mod);
+	  mods.TinkerStages.addModifierStage(stage, mod);
 	}
 }
