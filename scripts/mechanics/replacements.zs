@@ -20,9 +20,10 @@ var replacementItemsForStage as IIngredient[][][string] = {
     [<thaumcraft:crystal_ordo>],
     [<thaumcraft:crystal_perditio>],
     [<thaumcraft:crystal_vitium>],
+		[<thaumcraft:crystal_essence>],
 		[<thaumcraft:log_greatwood>, <minecraft:log:0>],
 		[<thaumcraft:log_silverwood>, <minecraft:log:0>],
-		[<thaumcraft:leaves_silverwood>, <minecraft:leaves2:1>],
+		[<thaumcraft:leaves_greatwood>, <minecraft:leaves2:1>],
 		[<thaumcraft:leaves_silverwood>, <minecraft:leaves2:1>],
 		[<thaumcraft:shimmerleaf>, <minecraft:tallgrass:1>],
 		[<thaumcraft:cinderpearl>, <minecraft:tallgrass:1>],
@@ -45,6 +46,7 @@ var replacementItemsForStage as IIngredient[][][string] = {
 	STAGES.astral : [
     // [<astralsorcery:blockcustomsandore>, <minecraft:sand>],
     [<astralsorcery:blockcustomore>],
+		[<astralsorcery:blockcustomflower>, <minecraft:tallgrass:1>],
     [<astralsorcery:blockcollectorcrystal>, <minecraft:bedrock>]
 	],
 
