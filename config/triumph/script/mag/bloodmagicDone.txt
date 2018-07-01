@@ -10,8 +10,12 @@ setRequiresParent(true)
 //Set this to use direct lines, so I can have a pretty shape
 drawDirectLines(true)
 
-//Astral
-criteria = addCriteria("craft_hellfire_forge", "minecraft:inventory_changed")
+setHidden(false)
+
+setRequirements("any")
+
+//Bloodmagic
+criteria = addCriteria("mag_bloodmagic_done", "minecraft:inventory_changed")
 criteria.addItem("bloodmagic:soul_forge")
 
 //Rewards

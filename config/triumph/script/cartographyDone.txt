@@ -12,7 +12,10 @@ setHidden(false)
 //Set this to use direct lines, so I can have a pretty shape
 drawDirectLines(true)
 
-criteria = addCriteria("triumph" , "triumph:completed_advancement")
+setRequirements("all")
+
+criteria = addCriteria("triumph_cartog_map_done" , "triumph:completed_advancement")
 criteria.setAdvancement("triumph:map/advanced_mapping")
 
-setRequirements("all")
+//Rewards
+setRewardExperience(8)

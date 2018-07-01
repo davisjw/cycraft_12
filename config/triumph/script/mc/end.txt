@@ -9,17 +9,17 @@ setParent("triumph:vanilla")
 //Set this to use direct lines, so I can have a pretty shape
 drawDirectLines(true)
 
-criteria = addCriteria("triumph" , "triumph:completed_advancement")
+criteria = addCriteria("triumph_mc_end_dragon_egg" , "triumph:completed_advancement")
 criteria.setAdvancement("minecraft:end/dragon_egg")
 
-criteria = addCriteria("triumph" , "triumph:completed_advancement")
+criteria = addCriteria("triumph_mc_end_resp_drag" , "triumph:completed_advancement")
 criteria.setAdvancement("minecraft:end/respawn_dragon")
 
-criteria = addCriteria("triumph" , "triumph:completed_advancement")
+criteria = addCriteria("triumph_mc_end_drag_breath" , "triumph:completed_advancement")
 criteria.setAdvancement("minecraft:end/dragon_breath")
 
-criteria = addCriteria("triumph" , "triumph:completed_advancement")
+criteria = addCriteria("triumph_mc_end_elytra" , "triumph:completed_advancement")
 criteria.setAdvancement("minecraft:end/elytra")
 
-criteria = addCriteria("triumph" , "triumph:completed_advancement")
+criteria = addCriteria("triumph_mc_end_levitate" , "triumph:completed_advancement")
 criteria.setAdvancement("minecraft:end/levitate")

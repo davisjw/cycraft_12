@@ -10,6 +10,8 @@ setRequiresParent(true)
 //Set this to use direct lines, so I can have a pretty shape
 drawDirectLines(true)
 
+setRequirements("all")
+
 criteria = addCriteria("triumph magic astral sourcery start" , "triumph:completed_advancement")
 criteria.setAdvancement("triumph:mag/astralDone")
 
@@ -22,4 +24,5 @@ criteria.setAdvancement("triumph:mag/botaniaDone")
 criteria = addCriteria("triumph magic thaumcraft start" , "triumph:completed_advancement")
 criteria.setAdvancement("triumph:mag/thaumcraftDone")
 
-setRequirements("all")
+//Rewards
+setRewardExperience(8)

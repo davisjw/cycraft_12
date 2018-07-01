@@ -1,6 +1,6 @@
 setTitle("Cartography")
 
-setIcon("minecraft:empty_map")
+setIcon("buildcraftlib:guide_note")
 
 setDescription("Craft an Atlas")
 
@@ -11,7 +11,7 @@ setHidden(false)
 //Set this to use direct lines, so I can have a pretty shape
 drawDirectLines(true)
 
-criteria = addCriteria("triumph" , "triumph:completed_advancement")
-criteria.setAdvancement("triumph:map/starter")
-
 setRequirements("any")
+
+criteria = addCriteria("triumph_cartog_map_starter" , "triumph:completed_advancement")
+criteria.setAdvancement("triumph:map/starter")

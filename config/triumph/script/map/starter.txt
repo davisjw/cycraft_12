@@ -1,17 +1,20 @@
 setTitle("Beginner Mapping")
 
-setIcon("minecraft:empty_map")
+setIcon("antiqueatlas:empty_antique_atlas")
 
 setDescription("Unlocking map features")
 
 setParent("triumph:cartography")
-setRequiresParent(true)
+
+setHidden(false)
 
 //Set this to use direct lines, so I can have a pretty shape
 drawDirectLines(true)
 
+setRequirements("any")
+
 //Criteria
-criteria = addCriteria("atlas, "minecraft:inventory_changed")
+criteria = addCriteria("map_starter, "minecraft:inventory_changed")
 criteria.addItem("antiqueatlas:empty_antique_atlas")
 
 //Rewards

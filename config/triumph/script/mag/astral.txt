@@ -9,8 +9,12 @@ setParent("triumph:magic")
 //Set this to use direct lines, so I can have a pretty shape
 drawDirectLines(true)
 
+setHidden(false)
+
+setRequirements("any")
+
 //Astral
-criteria = addCriteria("astral_tome", "minecraft:inventory_changed")
+criteria = addCriteria("mag_astral_start", "minecraft:inventory_changed")
 criteria.addItem("astralsorcery:itemjournal")
 
 //Rewards

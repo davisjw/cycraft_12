@@ -10,8 +10,12 @@ setRequiresParent(true)
 //Set this to use direct lines, so I can have a pretty shape
 drawDirectLines(true)
 
+setHidden(false)
+
+setRequirements("any")
+
 //Thaumcraft
-criteria = addCriteria("craft_thaumonomicon", "minecraft:inventory_changed")
+criteria = addCriteria("mag_thaum_done", "minecraft:inventory_changed")
 criteria.addItem("thaumcraft:thaumonomicon")
 
 //Rewards

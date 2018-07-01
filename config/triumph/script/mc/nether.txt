@@ -9,14 +9,14 @@ setParent("triumph:vanilla")
 //Set this to use direct lines, so I can have a pretty shape
 drawDirectLines(true)
 
-criteria = addCriteria("triumph" , "triumph:completed_advancement")
+criteria = addCriteria("triumph_mc_neth_fast_travel" , "triumph:completed_advancement")
 criteria.setAdvancement("minecraft:nether/fast_travel")
 
-criteria = addCriteria("triumph" , "triumph:completed_advancement")
+criteria = addCriteria("triumph_mc_neth_un_alliance" , "triumph:completed_advancement")
 criteria.setAdvancement("minecraft:nether/uneasy_alliance")
 
-criteria = addCriteria("triumph" , "triumph:completed_advancement")
+criteria = addCriteria("triumph_mc_neth_all_eff" , "triumph:completed_advancement")
 criteria.setAdvancement("minecraft:nether/all_effects")
 
-criteria = addCriteria("triumph" , "triumph:completed_advancement")
+criteria = addCriteria("triumph_mc_neth_createFbeacon" , "triumph:completed_advancement")
 criteria.setAdvancement("minecraft:nether/create_full_beacon")

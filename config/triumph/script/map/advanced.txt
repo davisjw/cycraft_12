@@ -1,8 +1,8 @@
 setTitle("Advanced Mapping")
 
-setIcon("minecraft:filled_map")
+setIcon("theoneprobe:probe_goggles")
 
-setDescription("After refining your skills in cartography you no longer need tools to get your bearings")
+setDescription("Eat Enchanted Golden Apples and then right click on a bookshelf to gain enlightenment")
 
 setParent("triumph:cartography/improved")
 setRequiresParent(true)
@@ -10,12 +10,18 @@ setRequiresParent(true)
 //Set this to use direct lines, so I can have a pretty shape
 drawDirectLines(true)
 
-//Adds criteria named "consumed" with the trigger type "minecraft:consume_item". This function returns the criteria as an object
-criteria = addCriteria("Consume Golden Apple", "minecraft:consume_item")
+setRequirements("all")
 
-//Sets the required item for the criteria. This is the item that needs to be consumed.
-criteria.setItem(<minecraft:golden_apple:0>)
+setHidden(false)
+
+//Adds criteria named "consumed" with the trigger type "minecraft:consume_item". This function returns the criteria as an object
+criteria = addCriteria("map_ConsumeGoldenApple1ForMapAdvancement", "minecraft:consume_item")
+criteria.setItem("minecraft:golden_apple", 1)
+criteria.setCount(5)
+
+//Adds criteria named "clickedBlock" with the trigger type "triumph:right_click_block". This function returns the criteria as an object
+criteria = addCriteria("map_RightClickOnBookshelfForMapAdvancement", "triumph:right_click_block")
+criteria.setBlock(<minecraft:bookshelf>)
 
 //Rewards
 setRewardFunction("triumph:stage-advanced_mapping_trigger")
-setRewardExperience(8)

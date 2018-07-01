@@ -11,6 +11,8 @@ drawDirectLines(true)
 
 setHidden(false)
 
+setRequirements("any")
+
 criteria = addCriteria("triumph magic astral sourcery start" , "triumph:completed_advancement")
 criteria.setAdvancement("triumph:mag/astral")
 
@@ -22,5 +24,3 @@ criteria.setAdvancement("triumph:mag/botania")
 
 criteria = addCriteria("triumph magic thaumcraft start" , "triumph:completed_advancement")
 criteria.setAdvancement("triumph:mag/thaumcraft")
-
-setRequirements("any")

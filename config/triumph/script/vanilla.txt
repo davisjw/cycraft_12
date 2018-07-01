@@ -11,6 +11,8 @@ setHidden(false)
 //Set this to use direct lines, so I can have a pretty shape
 drawDirectLines(true)
 
+setRequirements("any")
+
 //vanilla
 criteria = addCriteria("vanilla crafting table", "minecraft:inventory_changed")
 criteria.addItem("minecraft:crafting_table")
