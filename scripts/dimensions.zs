@@ -18,10 +18,10 @@ mods.DimensionStages.addDimensionStage(STAGES.vanilla, 28885);
 // Tech
 //----------------------
 //Compact Machines
-mods.DimensionStages.addDimensionStage(STAGES.tech, 144);
+//mods.DimensionStages.addDimensionStage(STAGES.tech, 144);
 
 //AE2 Spatial Storage
-mods.DimensionStages.addDimensionStage(STAGES.tech, 2);
+//mods.DimensionStages.addDimensionStage(STAGES.tech, 2);
 
 
 // Magical

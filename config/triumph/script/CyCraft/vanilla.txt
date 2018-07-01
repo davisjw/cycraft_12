@@ -2,26 +2,13 @@ setTitle("Vanilla")
 
 setIcon("minecraft:grass")
 
-setDescription("Craft a vanilla crafting table to get started, completes when you kill the Ender Dragon")
+setDescription("Craft a vanilla crafting table to get started, completes when you finish all vanilla advancements")
 
 setParent("triumph:cycraft/root")
-setRequiresParent(true)
 
-criteria = addCriteria("triumph" , "triumph:completed_advancement")
-criteria.setAdvancement("triumph:vanilla/adventure")
-
-criteria = addCriteria("triumph" , "triumph:completed_advancement")
-criteria.setAdvancement("triumph:vanilla/end")
-
-criteria = addCriteria("triumph" , "triumph:completed_advancement")
-criteria.setAdvancement("triumph:vanilla/husbandry")
-
-criteria = addCriteria("triumph" , "triumph:completed_advancement")
-criteria.setAdvancement("triumph:vanilla/minecraft")
-
-criteria = addCriteria("triumph" , "triumph:completed_advancement")
-criteria.setAdvancement("triumph:vanilla/nether")
+//vanilla
+criteria = addCriteria("vanilla crafting table", "minecraft:inventory_changed")
+criteria.addItem("minecraft:crafting_table")
 
 //Rewards
 setRewardFunction("triumph:vanilla_trigger")
-setRewardExperience(8)

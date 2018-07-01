@@ -4,11 +4,12 @@ setIcon("thaumcraft:goggles")
 
 setDescription("Craft an available thaumcraft item to start, complete all thaumcraft advancements")
 
-setParent("triumph:cycraft/magic")
+setParent("triumph:magic/thaumcraft")
+setRequiresParent(true)
 
 //Astral
 criteria = addCriteria("craft_thaumonomicon", "minecraft:inventory_changed")
 criteria.addItem("thaumcraft:thaumonomicon")
 
 //Rewards
-setRewardFunction("triumph:stage-thaumcraft_trigger")
+setRewardExperience(8)

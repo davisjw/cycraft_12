@@ -1,14 +1,15 @@
-setTitle("Botania")
+setTitle("Botania Completed")
 
 setIcon("botania:manaresource:13")
 
 setDescription("Craft an available botania item to start, complete all botania advancements")
 
-setParent("triumph:cycraft/magic")
+setParent("triumph:magic/botania")
+setRequiresParent(true)
 
 //Astral
 criteria = addCriteria("craft_lexica_botania", "minecraft:inventory_changed")
 criteria.addItem("botania:lexicon")
 
 //Rewards
-setRewardFunction("triumph:stage-botania_trigger")
+setRewardExperience(8)

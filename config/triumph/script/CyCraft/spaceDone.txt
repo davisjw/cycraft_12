@@ -4,7 +4,7 @@ setIcon("minecraft:empty_map")
 
 setDescription("Craft an Atlas")
 
-setParent("triumph:cycraft/root")
+setParent("triumph:cycraft/space")
 setRequiresParent(true)
 
 criteria = addCriteria("atlas, "minecraft:inventory_changed")

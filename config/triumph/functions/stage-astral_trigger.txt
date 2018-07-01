@@ -1,5 +1,5 @@
 gamestage add @p astral
-gamestage add @p astral_mob
+# gamestage add @p astral_mob
 astralsorcery research @p BASIC_CRAFT
 mpa notify @p astral
 summon minecraft:fireworks_rocket ~ ~ ~

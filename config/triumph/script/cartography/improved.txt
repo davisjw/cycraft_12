@@ -4,7 +4,7 @@ setIcon("minecraft:empty_map")
 
 setDescription("Craft a Map and the One Probe")
 
-setParent("triumph:cycraft/root")
+setParent("triumph:cartography/starter")
 setRequiresParent(true)
 
 criteria = addCriteria("vanilla map, "minecraft:inventory_changed")
@@ -15,4 +15,3 @@ criteria.addItem("theoneprobe:probe")
 
 //Rewards
 setRewardFunction("triumph:stage-improved_mapping_trigger")
-setRewardExperience(8)

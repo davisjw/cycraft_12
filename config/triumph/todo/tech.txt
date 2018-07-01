@@ -1,0 +1,27 @@
+setTitle("Technology")
+
+setIcon("minecraft:empty_map")
+
+setDescription("Craft a mechanical item")
+
+setParent("triumph:cycraft/root")
+
+#criteria = addCriteria("triumph" , "triumph:completed_advancement")
+#criteria.setAdvancement("triumph:tech/bc/root")
+#
+#criteria = addCriteria("triumph" , "triumph:completed_advancement")
+#criteria.setAdvancement("triumph:tech/bmw/root")
+#
+#criteria = addCriteria("triumph" , "triumph:completed_advancement")
+#criteria.setAdvancement("triumph:tech/forestry/root")
+#
+#criteria = addCriteria("triumph" , "triumph:completed_advancement")
+#criteria.setAdvancement("triumph:tech/ic2/root")
+#
+#criteria = addCriteria("triumph" , "triumph:completed_advancement")
+#criteria.setAdvancement("triumph:tech/ie/root")
+#
+#criteria = addCriteria("triumph" , "triumph:completed_advancement")
+#criteria.setAdvancement("triumph:tech/pc/root")
+#
+#setRequirements("any")

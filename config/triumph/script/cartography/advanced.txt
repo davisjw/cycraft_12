@@ -4,11 +4,11 @@ setIcon("minecraft:filled_map")
 
 setDescription("After refining your skills in cartography you no longer need tools to get your bearings")
 
-setParent("triumph:cycraft/mapping")
+setParent("triumph:cartography/improved")
 setRequiresParent(true)
 
 //Adds criteria named "consumed" with the trigger type "minecraft:consume_item". This function returns the criteria as an object
-criteria = addCriteria("consume Golden Apple", "minecraft:consume_item")
+criteria = addCriteria("Consume Golden Apple", "minecraft:consume_item")
 
 //Sets the required item for the criteria. This is the item that needs to be consumed.
 criteria.setItem(<minecraft:golden_apple:0>)

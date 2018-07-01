@@ -2,10 +2,9 @@ setTitle("Space Flight")
 
 setIcon("galacticraftcore:rocket_t1")
 
-setDescription("Craft an Atlas")
+setDescription("Craft an Rocket")
 
 setParent("triumph:cycraft/root")
-setRequiresParent(true)
 
 criteria = addCriteria("rocket engine, "minecraft:inventory_changed")
 criteria.addItem("galacticraftcore:engine")

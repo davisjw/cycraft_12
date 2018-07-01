@@ -2,14 +2,14 @@ setTitle("Mapping")
 
 setIcon("minecraft:empty_map")
 
-setDescription("Craft an Atlas")
+setDescription("Unlocking map features")
 
-setParent("triumph:cycraft/root")
+setParent("triumph:cycraft/cartography")
 setRequiresParent(true)
 
+//Criteria
 criteria = addCriteria("atlas, "minecraft:inventory_changed")
 criteria.addItem("antiqueatlas:empty_antique_atlas")
 
 //Rewards
-setRewardFunction("triumph:mapping_trigger")
-setRewardExperience(8)
+setRewardFunction("triumph:stage-improved_mapping_trigger")
