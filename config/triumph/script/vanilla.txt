@@ -18,4 +18,4 @@ criteria = addCriteria("vanilla crafting table", "minecraft:inventory_changed")
 criteria.addItem("minecraft:crafting_table")
 
 //Rewards
-setRewardFunction("triumph:vanilla_trigger")
+setRewardFunction("triumph:stage-vanilla_trigger")

@@ -15,7 +15,7 @@ setRequirements("any")
 
 //Criteria
 criteria = addCriteria("map_starter, "minecraft:inventory_changed")
-criteria.addItem("antiqueatlas:empty_antique_atlas")
+criteria.setItem("antiqueatlas:empty_antique_atlas")
 
 //Rewards
 setRewardFunction("triumph:stage-improved_mapping_trigger")
